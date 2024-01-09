@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  background-color: rgb(189, 187, 187);
+  width: 434px;
+  font-family: "Times New Roman", Times, serif;
+  height: 100vh;
+}
+.sidebar nav {
+  padding: 45px;
+}
+.sidebar nav li {
+  list-style: none;
+  font-size: 30px;
+  padding: 33px 0;
+}
+
+.sidebar nav li a {
+  text-decoration: none;
+  color: rgb(3, 3, 3);
+}
+.main {
+  /* background-color: yellow; */
+  width: 90vw;
+}
+.main_contact {
+  background-color: rgb(132, 29, 229);
+}
+.container {
+  display: flex;
+}
+.container_contact {
+  display: flex;
+}
+.infoContainer {
+  /* background-color: purple; */
+  height: 58vh;
+  width: 80vw;
+  margin: 144px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.divInfo {
+  display: flex;
+  justify-content: center;
+  margin-left: 15%;
+  flex-direction: column;
+}
+.hello {
+  font-size: 65px;
+  font-family: "Times New Roman", Times, serif;
+}
+.name {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+.about {
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+}
+.moreAbout {
+  font-size: 22px;
+  margin: 23px;
+  font-family: "Times New Roman", Times, serif;
+}
+.buttons {
+  margin-top: 34px;
+}
+.buttons button {
+  padding: 2px 7px;
+  border-radius: 22px;
+  color: white;
+  background-color: dodgerblue;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0 3px;
+  cursor: pointer;
+}
+.buttons button:hover {
+  color: dodgerblue;
+  background-color: white;
+}
+.divPic img {
+  height: 58vh;
+}
+.contactform {
+  padding: 0 34px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.contactform h1 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.contactform form div {
+  padding: 27px 0;
+  display: flex;
+  flex-direction: column;
+}
+.contactform form div input {
+  width: 26vw;
+  border-radius: 5px;
+  margin: 6px 0 0 0;
+  padding: 3px;
+}
+#emailhelp {
+  font-size: 8px;
+  color: midnightblue;
+  margin: 0 5px;
+}
+
+.form-check {
+  flex-direction: column;
+}
+
+.form-check input {
+  width: 0;
+}
